@@ -19,6 +19,9 @@ public class REx4_14 {
 			
 			num/=10;		//num의 마지막자리를 날림
 		}
+		
+		
+		
 
 
 		System.out.println("각자리수의합 = "+ sum);
