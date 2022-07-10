@@ -1,7 +1,7 @@
 package Ch06;
 
 public class Ex_14 {
-	static {
+	static {   //클래스 초기화 블록
 		System.out.println("static{}");
 	}
 	{
