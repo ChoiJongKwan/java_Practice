@@ -27,6 +27,7 @@ public class Ex_1 {
 		smt.displayCaption("hello world");
 		smt.caption=true;
 		smt.displayCaption("hello, world");
+		smt.displayCaption("hello, world");
 	}
 
 }
