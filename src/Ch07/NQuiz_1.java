@@ -20,7 +20,7 @@ class SutdaCard{
 	int num;
 	boolean isKang;
 	SutdaCard(){
-		this(1,ture);
+		this(1,true);
 	}
 	SutdaCard(int num, boolean isking){
 		this.num=num;
@@ -32,7 +32,7 @@ class SutdaCard{
 }
 public class NQuiz_1 {
 	public static void main(String[] args) {
-		
+		System.out.println("hi");
 	}
 
 }
