@@ -11,6 +11,8 @@ public class Ex_9 {
 	
 	static void method2() throws Exception{
 		throw new Exception();
+		
+		
 	}
 	
 }
