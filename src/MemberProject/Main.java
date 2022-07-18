@@ -65,7 +65,7 @@ public class Main {
 
 					break;
 			case 9:
-				run = false;
+				run = false;// while문 빠져나가는 라인
 				break;
 			}
 			
