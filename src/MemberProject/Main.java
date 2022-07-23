@@ -14,6 +14,7 @@ public class Main {
 
 		mm.newMember("최종관", 26, "010-1111-1111");
 		mm.newMember("홍길동", 30, "010-2222-2222");
+		mm.newMember("임꺽정", 20, "010-2222-2222");
 		System.out.println("1.회원추가 2.회원삭제 3.회원수정 4.회원조회 9.종료");
 		System.out.println("원하는 기능의 번호를 누르세요 (종료는 9번)");
 		
@@ -76,7 +77,7 @@ public class Main {
 }
 //System.out.println("------선언---------");
 
-//mm.newMember("임꺽정", 20, "010-2222-2222");
+
 //mm.showMember();
 //System.out.println("------삭제---------");
 //mm.deleteMember("010-1111-1111");
