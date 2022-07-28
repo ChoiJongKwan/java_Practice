@@ -30,6 +30,7 @@ class Student3 {
 public class Ex_11 {
 	public static void main(String[] args) {
 		Student3[] stuArr= {// 학생추가
+				
 				new Student3("나자바", true,  1,1, 300),
 				new Student3("김지미", false, 1,1, 250),
 				new Student3("김자바", true,  1,1, 200),
