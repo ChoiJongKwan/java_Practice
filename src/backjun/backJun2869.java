@@ -27,7 +27,7 @@ public class backJun2869 {
 			day++;
 		}
 		System.out.println(day);
-		
+		System.out.println((V+A+1)/(V-B+2));
 
 	}
 
