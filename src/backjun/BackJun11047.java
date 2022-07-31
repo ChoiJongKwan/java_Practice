@@ -55,6 +55,7 @@ public class BackJun11047 {
 					}else {
 						price=0;
 					}}
+				
 				System.out.println("필요한 코인수=" +count+" 남은 1의자리수= " + price);
 				
 				
