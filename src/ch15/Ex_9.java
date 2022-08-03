@@ -4,7 +4,6 @@ import java.io.*;
 import java.io.FileWriter;
 
 public class Ex_9 {
-
 	public static void main(String[] args) {
 		try {
 			FileReader fr = new FileReader(args[0]);
