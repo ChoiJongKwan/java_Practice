@@ -14,6 +14,7 @@ public class Ex_9 {
 				if(data!='\t'&&data!='\n'&& data!=' '&& data!='\r');
 				fw.write(data);
 			}
+		 
 			fr.close();
 			fw.close();
 			
