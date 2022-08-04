@@ -19,6 +19,7 @@ public static void main(String[] args) {
 		}else if((A==0&&B>=45)){
 			System.out.println(A+" "+(B-45));
 		}else {
+			
 			System.out.println("Error");
 		}
 			
