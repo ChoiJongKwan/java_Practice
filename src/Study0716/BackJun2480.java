@@ -7,10 +7,11 @@ public class BackJun2480 {
 
 	public static void main(String[] args) {
 		
-		int A = 0;//(int) (Math.random()*6)+1;// 주사위 눈값을 랜덤으로 받음
-		int B = 0;// (int) (Math.random()*6)+1;
-		int C = 0;//(int) (Math.random()*6)+1;
+	
 		Scanner s= new Scanner(System.in);
+		int A = s.nextInt();//(int) (Math.random()*6)+1;// 주사위 눈값을 랜덤으로 받음
+		int B = s.nextInt();// (int) (Math.random()*6)+1;
+		int C = s.nextInt();//(int) (Math.random()*6)+1;
 		int Dice[]=new int[3]; // 배열로 값을담아 마지막조건에서 사용할 값을찾기위해 Dice[]에 저장
 		int money = 0;// 출력할 상금변수money 변수선언과 초기화
 		
