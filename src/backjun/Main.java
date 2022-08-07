@@ -1,36 +1,34 @@
 package backjun;
 
-import java.util.Arrays;
+import java.io.IOException;
 import java.util.Scanner;
-
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
+
+		Scanner sc =new Scanner(System.in);
+		int cnt=0;
+		String A= sc.next();
+		String B= A;
 		
+		if(A.length()<2)
+			B="0"+A;
 		
-		Scanner s= new Scanner(System.in);
-		int A = s.nextInt();
-		int B = s.nextInt();
-		int C = s.nextInt();
-		int Dice[]= {A,B,C};
-		int money = 0;
-		
-		
-		if (A==B&&B==C) {
-			money=10000+(A*1000);
-			
-		}else if (A==B||B==C||A==C) {
-			if(A==B)
-				money=1000+(A*100);
-			else if(A==C)
-				money=1000+(A*100);
-			else 
-				money=1000+(B*100);
-		}else {
-			Arrays.sort(Dice); // 오름차순으로 정렬하여 가장큰값을 Dice[2]에 저장
-			money=100*Dice[2];
+		while(true){
+			int sum=0;
+			for(int i = 0; i<B.length(); i++ ) {
+				sum += B.charAt(i)-48;
+			}
+		B = B.charAt(1)+Integer.toString(sum%10);
+		cnt++;
+;
+		if(A.equals(B)||A.equals("0"+B)) break;
 		}
-			
 		
-		System.out.println(money);
+		System.out.print( cnt);
+
+
+
 	}
+
+
 }
