@@ -6,14 +6,10 @@ public class Main {
 
 
 	public static void main(String[] args) {
-		
-		Solution sl = new Solution();
-		int num=0;
-		Scanner sc= new Scanner(System.in);
-		num =sc.nextInt();
-	
+		Scanner sc = new Scanner(System.in);
+        int a= sc.nextInt();
 
-		System.out.println(	sl.solution(num));
+
 	}
 
 
@@ -21,15 +17,5 @@ public class Main {
 
 	
 }
-class Solution {
-    public String solution(int num) {
-         String answer = "";
-        if(num%2==0)
-           answer = "Even";
-        else{
-            answer= "Odd";
-        }
-        return answer;
-    }
 
-}
+
