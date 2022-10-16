@@ -22,11 +22,11 @@ public class backJun2869 {
 		while(sum<V) {
 			sum=sum+A;
 			sum=sum-B;
-			System.out.println(sum);
+//			System.out.println(sum);
 			if(sum>=V) break;
 			day++;
 		}
-		System.out.println(day);
+//		System.out.println(day);
 		System.out.println((V+A+1)/(V-B+2));
 
 	}
